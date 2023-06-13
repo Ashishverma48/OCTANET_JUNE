@@ -37,7 +37,7 @@ ul{
 }
 li{
     background-color: rgb(149, 197, 231);
-    padding: rem;
+   
     padding:.8rem 1rem .8rem 2.5rem;
     position: relative;
 }
