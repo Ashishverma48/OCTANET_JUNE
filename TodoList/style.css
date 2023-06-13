@@ -3,58 +3,47 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
 body>div{
-   
     width: 80%;
     margin: auto;
     padding: 2rem;
-
 }
 h1{
     text-align: center;
 }
 .inputContainer{
-    /* padding: 2rem; */
     border-bottom: 2px solid;
-    /* background-color: rgb(32, 45, 45); */
     display: flex;
     justify-content: space-between;
-
     margin-top: 2rem;
-    /* border-radius: 60px; */
 }
 .inputContainer input{
     padding: .8rem ;
     background-color: transparent;
     width: 100%;
     border: 0;
-    /* border-bottom: 2px solid; */
-    /* font-weight: 550; */
     outline: none;
     font-size: 1.2rem;
-    /* border-radius: 60px 0 0 60px; */
 }
 .inputContainer button{
     padding: .8rem 2vw;
     border: 0;
     font-weight: 550;
     width: 25%;
-    /* border-radius: 0 60px 60px 0; */
 }
-
 ul{
     list-style: none;
     margin-top: 1rem;
 }
 li{
-    background-color: white;
+    background-color: rgb(149, 197, 231);
     padding: rem;
     padding:.8rem 1rem .8rem 2.5rem;
     position: relative;
 }
+
 li:nth-child(even){
-    background-color: rgb(208, 228, 246);
+    background-color: rgb(119, 181, 236);
 }
 li:hover{
     background-color: cornflowerblue
@@ -73,8 +62,7 @@ li.checked::before {
     border-style: solid;
     transform: rotate(-45deg);
     width: 15px;
-}
-        
+}       
 .close{
     position: absolute;
     right: 0rem;

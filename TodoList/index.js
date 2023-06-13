@@ -1,7 +1,5 @@
 
-
-var ul = document.querySelector("ul");
-
+let ul = document.querySelector("ul");
 function addToList() {
   let txtInput = document.getElementById("todoTxt").value;
   if (txtInput === "") {
@@ -20,8 +18,6 @@ function addToList() {
   li.append(span);
   li.addEventListener('click',Checked)
   span.addEventListener('click',removeItem)
-  
-
 }
 
 function removeItem(){
